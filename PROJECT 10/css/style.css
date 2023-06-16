@@ -1,0 +1,155 @@
+.fa-regular{
+    color: black;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+body{
+    background: rgba(0,0,0,.5)url("../images/10.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    margin: 50px;
+}
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+}
+.list-item{
+    padding: 0px 30px;
+    margin-top: 10px;
+}
+
+.contact img{
+    position: relative;
+    left: -60px;
+    top: 10px;
+    color: #fff;
+}
+.call{
+    position: relative;
+    left: -10px;
+    top: -32px;
+}
+
+.line{
+    background-color: #ffffff;
+    height: 2px;
+    width: 1070px;
+    position: relative;
+    left: 0px;
+    top: -20px;
+    float: right;
+}
+
+
+/* left */
+
+.left h1{
+    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-left: 40px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.lern-more{
+    padding: 18px 36px;
+    border-radius: 18px;
+    border: 2px solid white;
+    background: transparent;
+    color: #ffffff;
+    margin-left: 40px;
+}
+.lern-more:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+}
+
+
+/* right */
+
+.right{
+    float: right;
+}
+.right button{
+    padding: 6px 26px;
+    border-radius: 30px;
+    background-color: #fff;
+    border: none;
+    margin-bottom: 14px;
+}
+.plugin{
+    padding: 26px 20px;
+    position: relative;
+    left: -195px;
+    top: -290px;
+    background:
+    linear-gradient(rgba(220, 214, 214, 0.3),
+     rgb(220, 214, 214,.3));
+}
+.line-1{
+    background-color: #fff;
+    height: 50px;
+    width: 1px;
+    position: relative;
+    left: -49px;
+    top: -290px;
+    border: none;
+}
+.circle-1{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    top: -290px;
+    left: -53px;
+}
+.idea{
+    padding: 26px 20px;
+    position: relative;
+    left: -442px;
+    top: -174px;
+    background:
+    linear-gradient(rgba(220, 214, 214, 0.3),
+     rgb(220, 214, 214,.3));
+}
+.line-2{
+    background-color: #fff;
+    height: 1px;
+    width: 50px;
+    position: relative;
+    left: -151px;
+    top: -262px;
+    border: none;
+}
+.circle-2{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    top: -268px;
+    left: -101px;
+}
+.banner-2{
+    position: relative;
+    top: -76px;
+}

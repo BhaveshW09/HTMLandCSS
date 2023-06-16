@@ -1,0 +1,266 @@
+*{margin: 0px;
+    padding: 0px;
+    outline: none;
+    font-family: sans-serif;
+    border: none;
+}
+body{
+    margin: 10px;
+    border: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.toggle{
+    display: none;
+    font-size: 25px;
+}
+
+.nav-items{
+    display: flex;
+}
+.nav-item{
+    padding: 15px 65px;
+    font-size: 18px;
+}
+.actions{
+    padding: 0px 0px;
+    margin: 0px 00px;
+}
+.intro-section{
+    display: flex;
+}
+.left-section h3{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: 100;
+    width: 30%;
+}
+.left-section h1{
+    font-size: 85px;
+    font-weight: 600;
+    font-family: "Fredoka";
+    width: 72%;
+    margin-left: 30px;
+}
+.sub-headlines{
+    width: 40%;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.sub-headlines img{
+    background-color: #ef6611;
+    border-radius: 50px;
+    width: 15px;
+    margin-right: 10px;
+}
+.sub-headlines h5{
+    margin-bottom: 20px;
+    font-size: 23px;
+    font-weight: 100;
+}
+.plus{
+    padding: 5px;
+    margin-bottom: -6px;
+}
+.text{
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 66%;
+    font-size: 17px;
+    color: #8f8f8f;
+}
+.action-btns{
+    width: 40%;
+    margin: 50px 30px;
+}
+.action-btn{
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: #ef6611;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    margin-right: 30px;
+}
+.headphone-div{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.head{
+    width: 125%;
+    left: -200px;
+    position: relative;
+    z-index: -1;
+}
+
+.discount{
+    position: relative;
+    width: 37%;
+    /* z-index: 1; */
+    top: -270px;
+    left: -235px;
+}
+
+.contents{
+    position: relative;
+    top: -170px;
+    left: -222px;
+    width: 30%;
+    text-align: center;
+    font-family: "Fredoka";
+    color: #fff;
+    /* z-index: 1; */
+}
+
+.dots{
+    padding: 12px 1px;
+    left: -45px;
+    bottom: 203px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.dot{
+    padding: 10px 0px;
+    border-radius: 50%;
+    width: 20px;
+    margin-right: 10px;
+    background-color: black;
+}
+.yellow-dot{
+    background-color: #efc311;
+}
+.tomato-dot{
+    background-color: #ef6611;
+}
+.black-dot{
+    border-color: #000000;
+}
+.action-btnn{
+    position: relative;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: #ef6611;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    bottom: 170px;
+    right: 30px;
+}
+@media screen and (max-width:480px) {
+
+    .logo{
+        width: 20%;
+    }
+    .nav-items{
+        display: none;
+    }
+    .toggle{
+        display: block;
+        position: relative;
+        left: -20px;
+    }
+    .actions{
+        display: none;
+    }
+    .left-section h3{
+        width: 100%;
+        font-size: 35px;
+        text-align: center;
+        margin: 75px -0px 45px -0px
+    }
+    .left-section h1{
+        font-size: 60px;
+        text-align: center;
+        align-items: center;
+        /* margin-left: 20px; */
+    }
+
+    .intro-section{
+        display:inline;
+        flex-direction: column;
+    }
+    .sub-headlines{
+        width: 70%;
+        margin-left: 55px;
+        margin-top: 49px;
+    }
+    .sub-headlines img{
+        background-color: #ef6611;
+        border-radius: 50px;
+        width: 13px;
+        margin-right: 10px;
+    }
+    .sub-headlines h5{
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: 100;
+    }
+    .plus{
+        padding: 3px;
+        margin-bottom: -2px;
+    }
+    .text{
+        margin-left: 15px;
+        margin-top: 50px;
+        width: 90%;
+        text-align: center;
+        font-size: 12px;
+        color: #8f8f8f;
+    }
+    .action-btns{
+        width: 100%;
+        margin: 50px 29px;
+        display: flex;
+    }
+    .action-btn{
+        padding: 10px 30px;
+        border-radius: 30px;
+        background-color: #ef6611;
+        font-size: 15px;
+        color: #fff;
+        border: none;
+        margin-right: 40px;
+        margin-bottom: 10px;
+        display: flex;
+    }
+    .head {
+        width: 93%;
+        left: 35px;
+        position: relative;
+        z-index: -2;
+    }
+
+      .dots{
+        left: 100px;
+        bottom: 175px;
+    }
+
+    .action-btnn{
+        padding: 10px 30px;
+        font-size: 15px;
+        margin-left: 155px;
+        margin-top: 30px;
+    }
+    
+    .discount{
+        position: relative;
+        width: 25%;
+        margin: 75px 0px 0px 245px;;
+    }
+    
+    .contents{
+        position: relative;
+        top: -122px;
+        left: 2px;
+        font-size: 13px;
+        color: #ffffff;
+    }
+
+}

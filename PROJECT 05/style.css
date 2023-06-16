@@ -1,0 +1,118 @@
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-image: url("./assets/bg.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: #000;
+}
+
+
+.logo{
+  margin: 14px -15px 19px 65px;
+  height: 35px;
+  width: 105px;
+}
+
+
+.line{
+  border: 1px solid #c7c7c7;
+  margin: 10px -108px 3px 0px;
+  position: relative;
+  padding: 0px 0px;
+  height: 45px;
+}
+
+
+.list{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 140px;
+  font-family: sans-serif;
+  /* border: 2px solid blue; */
+}
+.list-item{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 50px;
+  color: #fff;
+  /* border: 2px solid blue; */
+}
+
+.list:hover{
+    cursor: pointer;
+}
+.down {
+  display: none;
+  height: 15px;
+  position: absolute;
+  margin: 3px 45px;
+
+}
+
+.list-item:hover > .down{
+  display: inline;
+  height: 15px;
+  position: absolute;
+  margin: 3px 45px;
+}
+
+
+.button-small{
+  position: relative;
+  padding: 12px 30px;
+  background-color: #ba0cc5;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  margin: 13px 60px;
+}
+
+
+.hero-heading{
+  position: relative;
+  font-weight: 700;
+  font-family: 'Montserrat', 'sans-serif';
+  text-align: center;
+  color: #fff;
+  font-size: 82px;
+  margin: 118px 167px;
+}
+
+.hero-description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-weight: 500;
+  font-family: 'Montserrat', 'sans-serif';
+  text-align: center;
+  color: #fff;
+  font-size: 29.5px;
+  margin: -113px 425px;
+}
+
+.button-large{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 18px 23px;
+  background-color: #ba0cc5;
+  color: #fff;
+  font-weight: 600;
+  font-family:"Poppins";
+  border: none;
+  border-radius: 12px;
+  font-size: 30px;
+}

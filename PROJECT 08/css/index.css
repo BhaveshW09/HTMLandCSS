@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* height: 100%; */
+}
+.main-div{
+    margin: 20px 50px;
+    font-family: sans-serif;
+    
+}
+body{
+    background-image: url("../images/backcover.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 400px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+}
+.toggle{
+    display: none;
+    font-size: 30px;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 30px;
+    color: #3e4794;
+}
+nav img{
+    width: 120px;
+}
+.signin-btn{
+    right: 70px;
+    position: relative;
+    padding: 4px 15px;
+    font-family: sans-serif;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background:linear-gradient(to right, #965cf2,#ff8adc);
+}
+.intro-section{
+    display: flex;
+    justify-content: space-between;
+}
+.left-section h1{
+    font-family:sans-serif;
+    font-weight: 600;
+    color: #3e4794;
+    font-size: 80px;
+    margin-top:180px;
+    margin-bottom: 60px;
+    width: 80%;
+}
+.left-section h4{
+    width: 26%;
+    margin-left: 10px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #4c4c4c;
+}
+
+.learn-more-btn{
+    margin-top: 50px;
+    position: relative;
+    padding: 15px 40px;
+    font-family: sans-serif;
+    border-radius: 40px;
+    border: none;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    background:linear-gradient(to right, #965cf2,#ff8adc);
+}
+.imgs-div{
+    position: absolute;
+}
+.vector-img{
+    margin: 570px 500px;
+    position: absolute;
+}
+.vector-dot{
+    position: absolute;
+    margin: 574px 558px;
+}
+.intro{
+    position: absolute;
+    left: 480px;
+}
+
+@media screen and (max-width:1244px) {
+    .nav-item{
+        display: none;
+    }
+    .toggle{
+        display: block;
+        position: relative;
+        right: -400px;
+    }
+    .signin-btn{
+        position: relative;
+        right: -150px;
+    }
+}
+@media screen and (max-width:450px) {
+    .intro-section{
+        display: inline;
+        justify-content: center;
+    }
+    nav img{
+        width: 30%;
+        margin-left: -30px;
+    }
+    .toggle{
+        position: relative;
+        left: 210px;
+        top: -40px;
+    }
+    .left-section h1{
+        font-size: 80px;
+        text-align: center;
+        position: relative;
+        top: -195px;
+        left: -30px;
+    }
+    .left-section h4{
+        width: 88%;
+        margin-top: -223px;
+        font-size: 12px;
+        margin-left: -36px;
+        text-align: center;
+        letter-spacing: 0px;
+        line-height: 20px;
+    }
+    nav{
+        display: inline;
+    }
+    .signin-btn{
+        position: relative;
+        top: 325px;
+        left: 56px;
+        padding: 4px 20px;
+        font-weight: 100;
+        font-size: 13px;
+    }
+    .learn-more-btn{
+        position: relative;
+        top: 337px;
+        padding: 9px 23px;
+        font-size: 15px;
+        left: 32px;
+    }
+    .imgs-div .intro{
+        margin-left: -512px;
+        width: 270px;
+    }
+    .imgs-div .vector-img{
+        top: -374px;
+        left: -528px;
+        width: 44px;
+    }
+    .imgs-div .vector-dot{
+        top: -376px;
+        left: -558px;
+        width: 8px;
+    }
+}
